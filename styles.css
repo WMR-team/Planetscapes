@@ -517,14 +517,14 @@ body {
 }
 
 .home-intro > h2 {
-    text-align: center;
+    text-align: left;  /* 修改为左对齐 */
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: #2c3e50;
 }
 
 .home-intro > p {
-    text-align: center;
+    text-align: left;
     font-size: 1.1rem;
     margin-bottom: 3rem;
     line-height: 1.8;
