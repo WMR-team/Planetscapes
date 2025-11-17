@@ -540,11 +540,16 @@ body {
 }
 
 .intro-card {
-    background: transparent;  /* 移除白色背景 */
+    background: transparent;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: none;  /* 移除阴影 */
+    box-shadow: none;
     text-align: center;
+}
+
+.intro-image-link {
+    display: block;
+    text-decoration: none;
 }
 
 .intro-image {
@@ -566,7 +571,12 @@ body {
     transition: transform 0.3s;
 }
 
-.intro-card:hover .intro-image img {
+.intro-image-link:hover .intro-image {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.intro-image-link:hover .intro-image img {
     transform: scale(1.1);
 }
 
