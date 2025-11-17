@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数据集展示 - Dataset Showcase</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand"><a href="index.html">我的数据集</a></div>
+        <ul class="nav-menu">
+          <li><a href="overview.html">概览</a></li>
+          <li><a href="samples.html">样本</a></li>
+          <li><a href="statistics.html">统计</a></li>
+          <li><a href="download.html">下载</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero 区域 - 全屏背景轮播 -->
+    <section class="hero">
+      <!-- 背景轮播图片 -->
+      <div class="hero-background">
+        <img id="heroCarouselImage" src="images/sample1.jpg" alt="数据集样本" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <!-- 轮播控制按钮 -->
+      <button class="hero-carousel-btn hero-prev" id="heroPrevBtn">❮</button>
+      <button class="hero-carousel-btn hero-next" id="heroNextBtn">❯</button>
+
+      <!-- 内容层 -->
+      <div class="hero-content">
+        <div class="container">
+          <h1 class="hero-title">数据集名称</h1>
+          <p class="hero-subtitle">
+            高质量的计算机视觉数据集，用于语义分割和场景理解
+          </p>
+          <div class="hero-carousel-indicators" id="heroIndicators"></div>
+          <div class="hero-buttons">
+            <a href="download.html" class="btn btn-primary">下载数据集</a>
+            <a href="samples.html" class="btn btn-secondary">浏览样本</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 简介区域 -->
+    <section class="section">
+      <div class="container">
+        <div class="home-intro">
+          <h2>关于数据集</h2>
+          <p>
+            本数据集专为计算机视觉研究设计，包含高质量的图像和精确的像素级标注。数据集涵盖多种场景和条件，适用于语义分割、实例分割和场景理解等任务。
+          </p>
+
+          <!-- 图片轮播区域 -->
+          <div class="image-carousel">
+            <div class="carousel-container">
+              <button class="carousel-btn carousel-prev" id="homePrevBtn">
+                ❮
+              </button>
+              <div class="carousel-wrapper">
+                <img
+                  id="homeCarouselImage"
+                  src="placeholder.jpg"
+                  alt="数据集样本"
+                />
+              </div>
+              <button class="carousel-btn carousel-next" id="homeNextBtn">
+                ❯
+              </button>
+            </div>
+            <div class="carousel-indicators" id="homeIndicators"></div>
+          </div>
+
+          <div class="quick-stats">
+            <div class="quick-stat-item">
+              <div class="stat-icon">📊</div>
+              <div class="stat-text">
+                <h3>5,000</h3>
+                <p>图像总数</p>
+              </div>
+            </div>
+            <div class="quick-stat-item">
+              <div class="stat-icon">🏷️</div>
+              <div class="stat-text">
+                <h3>30</h3>
+                <p>类别数</p>
+              </div>
+            </div>
+            <div class="quick-stat-item">
+              <div class="stat-icon">🎯</div>
+              <div class="stat-text">
+                <h3>25,000+</h3>
+                <p>标注实例</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-features">
+            <h3>主要特点</h3>
+            <div class="features-grid">
+              <div class="feature-card">
+                <h4>🎨 高质量标注</h4>
+                <p>精确的像素级标注，确保数据质量</p>
+              </div>
+              <div class="feature-card">
+                <h4>🌈 场景多样</h4>
+                <p>涵盖多种场景和天气条件</p>
+              </div>
+              <div class="feature-card">
+                <h4>📏 高分辨率</h4>
+                <p>1024×2048分辨率，细节丰富</p>
+              </div>
+              <div class="feature-card">
+                <h4>📚 完整文档</h4>
+                <p>规范的数据格式和详细文档</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-actions">
+            <a href="overview.html" class="action-link">查看详细概览 →</a>
+            <a href="samples.html" class="action-link">浏览样本图像 →</a>
+            <a href="statistics.html" class="action-link">查看数据统计 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 数据集项目. All rights reserved.</p>
+        <p>联系方式: contact@example.com</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>样本展示 - Dataset Samples</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand"><a href="index.html">我的数据集</a></div>
+        <ul class="nav-menu">
+          <li><a href="overview.html">概览</a></li>
+          <li><a href="samples.html" class="active">样本</a></li>
+          <li><a href="statistics.html">统计</a></li>
+          <li><a href="download.html">下载</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+      <div class="container">
+        <h1>样本展示</h1>
+        <p>浏览数据集中的代表性图像样本</p>
+      </div>
+    </section>
+
+    <!-- 样本展示区域 -->
+    <section class="section">
+      <div class="container">
+        <div class="sample-viewer">
+          <div class="sample-display">
+            <div class="sample-image-wrapper">
+              <button class="carousel-btn carousel-prev" id="prevBtn">❮</button>
+              <img id="sampleImage" src="placeholder.jpg" alt="Sample Image" />
+              <button class="carousel-btn carousel-next" id="nextBtn">❯</button>
+            </div>
+            <div class="sample-controls">
+              <button class="control-btn" id="playPauseBtn">⏸ 暂停</button>
+              <span id="sampleCounter">1 / 10</span>
+              <div class="carousel-indicators" id="sampleIndicators"></div>
+            </div>
+          </div>
+          <div class="sample-info">
+            <h3>图像信息</h3>
+            <div class="info-item">
+              <span class="info-label">文件名:</span>
+              <span id="fileName">sample_001.jpg</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">分辨率:</span>
+              <span id="resolution">1024 × 2048</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">场景类型:</span>
+              <span id="sceneType">城市街道</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sample-gallery">
+          <h3>样本画廊</h3>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="placeholder.jpg" alt="Sample 1" />
+              <p>城市街道</p>
+            </div>
+            <div class="gallery-item">
+              <img src="placeholder.jpg" alt="Sample 2" />
+              <p>高速公路</p>
+            </div>
+            <div class="gallery-item">
+              <img src="placeholder.jpg" alt="Sample 3" />
+              <p>住宅区</p>
+            </div>
+            <div class="gallery-item">
+              <img src="placeholder.jpg" alt="Sample 4" />
+              <p>郊区道路</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 数据集项目. All rights reserved.</p>
+        <p>联系方式: contact@example.com</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "dataset": {
+    "name": "我的数据集",
+    "title": "高质量计算机视觉数据集",
+    "description": "专为计算机视觉研究设计的高质量数据集",
+    "stats": {
+      "totalImages": 5000,
+      "categories": 30,
+      "instances": 25000,
+      "resolution": "1024×2048"
+    },
+    "features": [
+      "高分辨率图像，细节丰富",
+      "精确的像素级标注",
+      "多样化的场景和天气条件",
+      "规范的数据格式和文档"
+    ],
+    "downloads": [
+      {
+        "name": "完整数据集",
+        "size": "10 GB",
+        "description": "包含所有图像和标注文件",
+        "url": "#"
+      },
+      {
+        "name": "训练集",
+        "size": "7 GB",
+        "description": "仅包含训练数据",
+        "url": "#"
+      },
+      {
+        "name": "验证集",
+        "size": "2 GB",
+        "description": "仅包含验证数据",
+        "url": "#"
+      }
+    ],
+    "citation": "@dataset{mydataset2024,\n  title={My Dataset},\n  author={Your Name},\n  year={2024},\n  url={https://example.com/dataset}\n}",
+    "contact": "contact@example.com"
+  }
+}
