@@ -57,24 +57,42 @@
             本数据集专为计算机视觉研究设计，包含高质量的图像和精确的像素级标注。数据集涵盖多种场景和条件，适用于语义分割、实例分割和场景理解等任务。
           </p>
 
-          <!-- 图片轮播区域 -->
-          <div class="image-carousel">
-            <div class="carousel-container">
-              <button class="carousel-btn carousel-prev" id="homePrevBtn">
-                ❮
-              </button>
-              <div class="carousel-wrapper">
-                <img
-                  id="homeCarouselImage"
-                  src="placeholder.jpg"
-                  alt="数据集样本"
-                />
+          <!-- 三个介绍卡片 -->
+          <div class="intro-cards">
+            <div class="intro-card">
+              <div class="intro-image">
+                <img src="images/overview-icon.jpg" alt="Dataset Overview" />
               </div>
-              <button class="carousel-btn carousel-next" id="homeNextBtn">
-                ❯
-              </button>
+              <h3>数据集概览</h3>
+              <p>
+                了解 Cityscapes
+                数据集的主要特征、标注政策以及所包含语义类别的定义。
+              </p>
+              <a href="overview.html" class="read-more-btn">了解更多</a>
             </div>
-            <div class="carousel-indicators" id="homeIndicators"></div>
+
+            <div class="intro-card">
+              <div class="intro-image">
+                <img src="images/examples-icon.jpg" alt="Examples" />
+              </div>
+              <h3>样本图像</h3>
+              <p>
+                查看一些样本图像，深入了解标注的类型和质量，以及随 Cityscapes
+                数据集提供的元数据。
+              </p>
+              <a href="samples.html" class="read-more-btn">了解更多</a>
+            </div>
+
+            <div class="intro-card">
+              <div class="intro-image">
+                <img src="images/benchmark-icon.jpg" alt="Benchmark Suite" />
+              </div>
+              <h3>基准测试套件</h3>
+              <p>
+                了解基准测试套件中的挑战、相应的评估指标以及评估方法的性能结果。
+              </p>
+              <a href="statistics.html" class="read-more-btn">了解更多</a>
+            </div>
           </div>
 
           <div class="quick-stats">
