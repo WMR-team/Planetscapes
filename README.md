@@ -60,8 +60,7 @@ const heroCarouselData = [
 catWeb/
 ├── index.html          # 主页
 ├── overview.html       # 概览页面
-├── samples.html        # 样本展示页面
-├── statistics.html     # 统计页面
+├── examples.html        # 样本展示页面
 ├── download.html       # 下载页面
 ├── styles.css          # 样式文件
 ├── script.js           # JavaScript脚本

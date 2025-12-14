@@ -1,6 +1,6 @@
 {
   "dataset": {
-    "name": "我的数据集",
+    "name": "Planetscapes Dataset",
     "title": "高质量计算机视觉数据集",
     "description": "专为计算机视觉研究设计的高质量数据集",
     "stats": {
@@ -36,6 +36,6 @@
       }
     ],
     "citation": "@dataset{mydataset2024,\n  title={My Dataset},\n  author={Your Name},\n  year={2024},\n  url={https://example.com/dataset}\n}",
-    "contact": "contact@example.com"
+    "contact": "zhouryhit@gmail.com"
   }
 }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benchmarks - Planetscapes Dataset</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand"><a href="index.html">Planetscapes Dataset</a></div>
+        <ul class="nav-menu">
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="examples.html">Examples</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="benchmarks.html" class="active">Benchmarks</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Benchmarks 内容 -->
+    <section class="section">
+      <div class="container">
+        <h1>Benchmark Suite</h1>
+        <p>
+          The Planetscapes benchmark suite evaluates semantic, instance and
+          panoptic segmentation methods on the dataset. Below are the primary
+          evaluation metrics and placeholders for results and leaderboards.
+        </p>
+
+        <div class="benchmarks-overview">
+          <h2>Evaluation Metrics</h2>
+          <ul>
+            <li><strong>mIoU</strong> — mean Intersection over Union for semantic segmentation</li>
+            <li><strong>Pixel Accuracy</strong> — overall pixel-wise accuracy</li>
+            <li><strong>AP / AP50</strong> — average precision for instance segmentation</li>
+            <li><strong>PQ</strong> — panoptic quality for panoptic segmentation</li>
+          </ul>
+
+          <h2>Results</h2>
+          <p>
+            Leaderboard and detailed per-class scores will be provided here. For now,
+            include your evaluation scripts and upload benchmark results to the repository.
+          </p>
+
+          <!-- 可替换为真实表格或外部 leaderboard 嵌入 -->
+          <div class="results-placeholder">
+            <p><em>Placeholder: benchmark tables and charts will appear here.</em></p>
+          </div>
+
+          <h3>How to evaluate</h3>
+          <ol>
+            <li>Download the validation/test split from the Download page.</li>
+            <li>Run the provided evaluation script (see repository).</li>
+            <li>Submit results to the leaderboard or contact the maintainers for inclusion.</li>
+          </ol>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Planetscapes Dataset Project. All rights reserved.</p>
+        <p>Contact: zhouryhit@gmail.com</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

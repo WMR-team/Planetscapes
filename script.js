@@ -36,29 +36,29 @@ const samples = [
 const heroCarouselData = [
     {
         image: './images/sample1.jpg',  // 添加 ./ 前缀
-        title: '城市街道场景',
-        subtitle: '高精度的城市道路语义分割数据集'
+        title: 'The Planetscapes Dataset',
+        subtitle: 'Semantic, instance-wise, dense pixel annotations of 17 classes'
     },
     {
         image: 'images/sample2.jpg',
-        title: '高速公路场景',
-        subtitle: '覆盖多种天气和光照条件的道路场景'
+        title: 'The Planetscapes Dataset',
+        subtitle: '5000 images with high-quality annotations and 20000 images with coarse annotations, 4 different missions and landing sites'
     },
     {
         image: 'images/sample3.jpg',
-        title: '住宅区场景',
-        subtitle: '精确标注的居民区街道环境数据'
+        title: 'The Planetscapes Dataset',
+        subtitle: 'Benchmark suite and evaluation server for pixel-level, instance level and panoramic semantic labeling'
     },
-    {
-        image: 'images/sample4.jpg',
-        title: '郊区道路场景',
-        subtitle: '包含乡村和郊区的多样化场景'
-    },
-    {
-        image: 'images/sample5.jpg',
-        title: '夜间场景',
-        subtitle: '挑战性的低光照条件下的场景理解'
-    }
+    // {
+    //     image: 'images/sample4.jpg',
+    //     title: '郊区道路场景',
+    //     subtitle: '包含乡村和郊区的多样化场景'
+    // },
+    // {
+    //     image: 'images/sample5.jpg',
+    //     title: '夜间场景',
+    //     subtitle: '挑战性的低光照条件下的场景理解'
+    // }
 ];
 
 let currentSampleIndex = 0;

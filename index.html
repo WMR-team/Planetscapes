@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>数据集展示 - Dataset Showcase</title>
+    <title>Dataset Showcase</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- 导航栏 -->
     <nav class="navbar">
       <div class="container">
-        <div class="nav-brand"><a href="index.html">我的数据集</a></div>
+        <div class="nav-brand"><a href="index.html">Planetscapes Dataset</a></div>
         <ul class="nav-menu">
-          <li><a href="overview.html">概览</a></li>
-          <li><a href="samples.html">样本</a></li>
-          <li><a href="statistics.html">统计</a></li>
-          <li><a href="download.html">下载</a></li>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="examples.html">Examples</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="benchmarks.html">Benchmarks</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -41,8 +42,8 @@
           </p>
           <div class="hero-carousel-indicators" id="heroIndicators"></div>
           <div class="hero-buttons">
-            <a href="download.html" class="btn btn-primary">下载数据集</a>
-            <a href="samples.html" class="btn btn-secondary">浏览样本</a>
+            <a href="download.html" class="btn btn-primary">Download dataset</a>
+            <a href="examples.html" class="btn btn-secondary">Browse examples</a>
           </div>
         </div>
       </div>
@@ -60,43 +61,41 @@
                   <img src="images/overview-icon.jpg" alt="Dataset Overview" />
                 </div>
               </a>
-              <h3>数据集概览</h3>
+              <h3>Dataset Overview</h3>
               <p>
-                了解 Cityscapes
-                数据集的主要特征、标注政策以及所包含语义类别的定义。
+                Get an overview of the Planetscapes Dataset, including its main features, annotation policies, and the definitions of the semantic categories it contains.
               </p>
-              <a href="overview.html" class="read-more-btn">了解更多</a>
+              <a href="overview.html" class="read-more-btn">Learn More</a>
             </div>
 
             <div class="intro-card">
-              <a href="samples.html" class="intro-image-link">
+              <a href="examples.html" class="intro-image-link">
                 <div class="intro-image">
                   <img src="images/examples-icon.jpg" alt="Examples" />
                 </div>
               </a>
-              <h3>样本图像</h3>
+              <h3>Examples</h3>
               <p>
-                查看一些样本图像，深入了解标注的类型和质量，以及随 Cityscapes
-                数据集提供的元数据。
+                View some sample images to get a deeper understanding of the types and quality of annotations, as well as the metadata provided.
               </p>
-              <a href="samples.html" class="read-more-btn">了解更多</a>
+              <a href="examples.html" class="read-more-btn">Learn More</a>
             </div>
 
             <div class="intro-card">
-              <a href="statistics.html" class="intro-image-link">
+              <a href="benchmarks.html" class="intro-image-link">
                 <div class="intro-image">
                   <img src="images/benchmark-icon.jpg" alt="Benchmark Suite" />
                 </div>
               </a>
-              <h3>基准测试套件</h3>
+              <h3>Benchmark Suites</h3>
               <p>
-                了解基准测试套件中的挑战、相应的评估指标以及评估方法的性能结果。
+                Learn about the challenges in the benchmark suites, the corresponding evaluation metrics, and the performance results of evaluation methods.
               </p>
-              <a href="statistics.html" class="read-more-btn">了解更多</a>
+              <a href="benchmarks.html" class="read-more-btn">Learn More</a>
             </div>
           </div>
 
-          <h2>关于数据集</h2>
+          <h2>The Planetscapes Dataset</h2>
           <p>
             We present a new large-scale dataset that contains a diverse set of
             stereo video sequences recorded in street scenes from 50 different
@@ -106,7 +105,7 @@
             attempts. Details on annotated classes and examples of our
             annotations are available at this webpage.
             <br />
-            The Cityscapes Dataset is intended for:
+            The Planetscapes Dataset is intended for:
             <br />
             1. assessing the performance of vision algorithms for major tasks of
             semantic urban scene understanding: pixel-level, instance-level, and
@@ -116,7 +115,14 @@
             (weakly) annotated data, e.g. for training deep neural networks.
           </p>
 
-          <div class="home-features">
+          <h2>License</h2>
+          <p>
+            This Planetscapes Dataset is made available under the Creative Commons
+            Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
+          </p>
+        </div>
+
+          <!-- <div class="home-features">
             <h3>主要特点</h3>
             <div class="features-grid">
               <div class="feature-card">
@@ -136,13 +142,12 @@
                 <p>规范的数据格式和详细文档</p>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="home-actions">
+          <!-- <div class="home-actions">
             <a href="overview.html" class="action-link">查看详细概览 →</a>
-            <a href="samples.html" class="action-link">浏览样本图像 →</a>
-            <a href="statistics.html" class="action-link">查看数据统计 →</a>
-          </div>
+            <a href="examples.html" class="action-link">浏览样本图像 →</a>
+          </div> -->
         </div>
       </div>
     </section>
@@ -150,8 +155,8 @@
     <!-- 页脚 -->
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2024 数据集项目. All rights reserved.</p>
-        <p>联系方式: contact@example.com</p>
+        <p>&copy; 2025 Planetscapes Dataset Project. All rights reserved.</p>
+        <p>Contact: zhouryhit@gmail.com</p>
       </div>
     </footer>
 
