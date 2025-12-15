@@ -35,7 +35,7 @@ const samples = [
 // 主页轮播图片及对应文字
 const heroCarouselData = [
     {
-        image: './images/sample1.jpg',  // 添加 ./ 前缀
+        image: './images/segmentation_examples.png',  // 添加 ./ 前缀
         title: 'The Planetscapes Dataset',
         subtitle: 'Semantic, instance-wise, dense pixel annotations of 17 classes'
     },
