@@ -24,52 +24,52 @@
     <!-- 页面标题 -->
     <section class="page-header">
       <div class="container">
-        <h1>数据集概览</h1>
-        <p>详细了解数据集的构成和特点</p>
+        <h1>Dataset Overview</h1>
+        <p>The Planetscape Dataset focuses on semantic understanding of planetary surface scenes. An overview on the detailed information about the composition and characteristics of the dataset is provided below.</p>
       </div>
     </section>
 
     <!-- 概览区域 -->
     <section class="section">
       <div class="container">
-        <h2 class="section-title">核心指标</h2>
+        <h2 class="section-title">Features</h2>
         <div class="overview-grid">
           <div class="overview-card">
             <div class="card-icon">📊</div>
-            <h3>总图像数</h3>
-            <p class="stat-number">5,000</p>
+            <h3>Comprehension</h3>
+            <p class="stat-number">XXX</p>
           </div>
           <div class="overview-card">
             <div class="card-icon">🏷️</div>
-            <h3>类别数</h3>
-            <p class="stat-number">30</p>
+            <h3>Diversity</h3>
+            <p class="stat-number">XXX</p>
           </div>
           <div class="overview-card">
             <div class="card-icon">🎯</div>
-            <h3>标注实例</h3>
-            <p class="stat-number">25,000+</p>
+            <h3>Accuracy</h3>
+            <p class="stat-number">XXX</p>
           </div>
           <div class="overview-card">
             <div class="card-icon">📐</div>
-            <h3>图像分辨率</h3>
-            <p class="stat-number">1024×2048</p>
+            <h3>Benchmark</h3>
+            <p class="stat-number">XXX</p>
           </div>
         </div>
 
         <div class="description">
-          <h3>关于数据集</h3>
-          <p>
+          <h3>Comprehension</h3>
+          <!-- <p>
             本数据集专为计算机视觉研究设计，包含高质量的图像和精确的像素级标注。数据集涵盖多种场景和条件，适用于语义分割、实例分割和场景理解等任务。
-          </p>
+          </p> -->
           <ul>
-            <li>高分辨率图像，细节丰富</li>
-            <li>精确的像素级标注</li>
-            <li>多样化的场景和天气条件</li>
-            <li>规范的数据格式和文档</li>
+            <li>5,000 annotated images with fine annotations</li>
+            <li>20,000 annotated images with coarse annotations</li>
+            <li>Diverse scenes and weather conditions</li>
+            <li>Data formatted and documented according to standards</li>
           </ul>
         </div>
 
-        <div class="dataset-split">
+        <!-- <div class="dataset-split">
           <h3>数据集划分</h3>
           <div class="split-grid">
             <div class="split-card">
@@ -88,34 +88,34 @@
               <p class="split-percent">10%</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="stats-grid">
+        <div class="stats-grid" style="margin-top: 3rem">
           <div class="stat-card">
-            <h3>类别分布</h3>
+            <h3>Complexity</h3>
             <div id="categoryChart" class="chart-placeholder">
               <p>图表区域 - 可集成 Chart.js 等图表库</p>
             </div>
           </div>
           <div class="stat-card">
-            <h3>场景类型</h3>
+            <h3>Scene categories</h3>
             <div class="scene-list">
               <div class="scene-item">
-                <span>城市街道</span>
+                <span>Mars scene collected by Perseverance rover at Jezero Crater</span>
                 <div class="progress-bar">
                   <div class="progress-fill" style="width: 45%"></div>
                 </div>
                 <span>45%</span>
               </div>
               <div class="scene-item">
-                <span>高速公路</span>
+                <span>Mars scene collected by Curiosity rover at Gale Crater</span>
                 <div class="progress-bar">
                   <div class="progress-fill" style="width: 30%"></div>
                 </div>
                 <span>30%</span>
               </div>
               <div class="scene-item">
-                <span>住宅区</span>
+                <span>Mars scene collected by Zhurong rover at Utopia Planitia</span>
                 <div class="progress-bar">
                   <div class="progress-fill" style="width: 25%"></div>
                 </div>
@@ -123,9 +123,36 @@
               </div>
             </div>
           </div>
+          
+          <div class="stat-card">
+            <h3>Dataset Split</h3>
+            <div class="scene-list">
+              <div class="scene-item">
+                <span>Train</span>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%"></div>
+                </div>
+                <span>70%</span>
+              </div>
+              <div class="scene-item">
+                <span>Val</span>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 20%"></div>
+                </div>
+                <span>20%</span>
+              </div>
+              <div class="scene-item">
+                <span>Test</span>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 10%"></div>
+                </div>
+                <span>10%</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="additional-stats">
+        <!-- <div class="additional-stats">
           <h3>详细统计</h3>
           <div class="detail-stats-grid">
             <div class="detail-stat-card">
@@ -146,7 +173,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </section>
@@ -160,3 +187,49 @@
     </footer>
   </body>
 </html>
+
+<style>
+.scene-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.scene-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 1fr 56px;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.25rem 0;
+}
+
+.scene-item > span:first-child {
+    overflow-wrap: anywhere;
+    color: #2c3e50;
+}
+
+.scene-item > span:last-child {
+    text-align: right;
+    color: #666;
+    font-variant-numeric: tabular-nums;
+}
+
+/* mobile: put the long label on its own row */
+@media (max-width: 480px) {
+    .scene-item {
+        grid-template-columns: 1fr 56px;
+        grid-template-rows: auto auto;
+    }
+    .scene-item > span:first-child {
+        grid-column: 1 / -1;
+    }
+    .scene-item .progress-bar {
+        grid-column: 1 / 2;
+    }
+    .scene-item > span:last-child {
+        grid-column: 2 / 3;
+        justify-self: end;
+    }
+}
+</style>
