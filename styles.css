@@ -718,6 +718,68 @@ body {
     }
 }
 
+/* Benchmarks: table */
+.table-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-top: 1.5rem;
+}
+
+.table-note {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.benchmark-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.benchmark-table th,
+.benchmark-table td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.benchmark-table th {
+  text-align: left;
+  background: #f8f9fa;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.benchmark-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Benchmarks: section spacing */
+.benchmarks-overview {
+  margin-top: 2.5rem;   /* Pixel-Level Semantic Labeling Task 前面的空白 */
+}
+
+.benchmarks-overview h2 {
+  margin-top: 2.25rem;  /* 各个大标题前留空 */
+  margin-bottom: 0.75rem;
+}
+
+.benchmarks-overview h2:first-child {
+  margin-top: 0;        /* 第一个 h2 不要额外顶开（已经有 .benchmarks-overview 的 margin-top） */
+}
+
+.benchmarks-overview h3 {
+  margin-top: 1.75rem;  /* Metrics / Results 前面的空白 */
+  margin-bottom: 0.5rem;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
     .hero {
