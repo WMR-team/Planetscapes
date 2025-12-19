@@ -132,6 +132,74 @@
             <li>Submit results to the leaderboard or contact the maintainers for inclusion.</li>
           </ol> -->
 
+          <h2>Visual Question Answering Task</h2>
+          <p>
+            The Planetscapes VQA task evaluates multi-modal understanding of planetary scenes.
+            Given an image and a natural-language question, the goal is to predict the correct answer
+            (e.g., yes/no, counting, or short text).
+          </p>
+
+          <h3>Metrics</h3>
+          <p>
+            We report standard VQA-style accuracy, including overall accuracy and accuracy by answer type.
+            The numbers below are placeholders for demonstration.
+          </p>
+          <ul>
+            <li><strong>Overall Acc</strong> — overall question answering accuracy</li>
+            <li><strong>Yes/No</strong> — accuracy on binary questions</li>
+            <li><strong>Number</strong> — accuracy on counting/number questions</li>
+            <li><strong>Other</strong> — accuracy on other open-ended questions</li>
+          </ul>
+
+          <h3>Results</h3>
+          <p>
+            A leaderboard and detailed breakdowns will be provided here. For now, we show a demo table.
+          </p>
+
+          <div class="table-card">
+            <p class="table-note"><em>Note: The numbers below are placeholder/demo results (not official).</em></p>
+
+            <div class="table-wrapper">
+              <table class="benchmark-table">
+                <thead>
+                  <tr>
+                    <th>Method</th>
+                    <th>Backbone</th>
+                    <th class="num">Overall Acc</th>
+                    <th class="num">Yes/No</th>
+                    <th class="num">Number</th>
+                    <th class="num">Other</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Baseline-VQA</td>
+                    <td>CLIP-ViT-B/32</td>
+                    <td class="num">0.542</td>
+                    <td class="num">0.701</td>
+                    <td class="num">0.388</td>
+                    <td class="num">0.501</td>
+                  </tr>
+                  <tr>
+                    <td>Transformer-VQA</td>
+                    <td>ViT-B + Text-T</td>
+                    <td class="num">0.598</td>
+                    <td class="num">0.742</td>
+                    <td class="num">0.431</td>
+                    <td class="num">0.563</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Ours (Demo)</strong></td>
+                    <td><strong>ViT-L</strong></td>
+                    <td class="num"><strong>0.631</strong></td>
+                    <td class="num"><strong>0.768</strong></td>
+                    <td class="num"><strong>0.462</strong></td>
+                    <td class="num"><strong>0.601</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </section>
