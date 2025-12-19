@@ -676,6 +676,49 @@ body {
 .team-avatars .avatar-caption { margin-top: 10px; }
 .team-avatars .avatar-caption .small { color: #666; font-size: 12px; margin-top: 4px; }
 
+/* Examples page: Fine annotations gallery */
+.sample-gallery {
+    margin-top: 3rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item p {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* optional: keep it readable on small screens */
+@media (max-width: 900px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
     .hero {
@@ -767,6 +810,15 @@ body {
     }
     
     .intro-card h3 {
+        font-size: 1.3rem;
+    }
+}
+
+.sample-gallery h3 {
+    font-size: 1.6rem; /* 你想更大可以改成 1.8rem */
+}
+@media (max-width: 480px) {
+    .sample-gallery h3 {
         font-size: 1.3rem;
     }
 }
