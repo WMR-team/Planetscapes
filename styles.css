@@ -780,6 +780,27 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* Contact page: consistent spacing between blocks */
+.team-section {
+  margin-top: 2.5rem; /* Contact 顶部文字 与 Dataset Team 之间 */
+}
+
+.team-section h2 {
+  margin-bottom: 1.25rem;
+}
+
+.team-avatars {
+  margin-top: 2.5rem; /* Dataset Team 标题 与 头像区之间 */
+}
+
+.team-lab-logos {
+  margin-top: 2.5rem; /* 头像区 与 Labs 之间 */
+}
+
+.team-lab-logos h3 {
+  margin-bottom: 1rem;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
     .hero {
