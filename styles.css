@@ -419,27 +419,46 @@ body {
 
 .scene-list {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
 .scene-item {
     display: grid;
-    grid-template-columns: 100px 1fr 50px;
+    grid-template-columns: minmax(0, 1fr) 1fr 56px;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 1rem;
+    padding: 0.25rem 0;
 }
 
-.progress-bar {
-    background: #e0e0e0;
-    height: 10px;
-    border-radius: 5px;
-    overflow: hidden;
+.scene-item > span:first-child {
+    overflow-wrap: anywhere;
+    color: #2c3e50;
 }
 
-.progress-fill {
-    background: linear-gradient(90deg, #667eea, #764ba2);
-    height: 100%;
-    transition: width 0.3s;
+.scene-item > span:last-child {
+    text-align: right;
+    color: #666;
+    font-variant-numeric: tabular-nums;
+}
+
+/* mobile: put the long label on its own row */
+@media (max-width: 480px) {
+    .scene-item {
+        grid-template-columns: 1fr 56px;
+        grid-template-rows: auto auto;
+    }
+    .scene-item > span:first-child {
+        grid-column: 1 / -1;
+    }
+    .scene-item .progress-bar {
+        grid-column: 1 / 2;
+    }
+    .scene-item > span:last-child {
+        grid-column: 2 / 3;
+        justify-self: end;
+    }
 }
 
 /* 下载选项 */

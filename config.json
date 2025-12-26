@@ -1,8 +1,8 @@
 {
   "dataset": {
     "name": "Planetscapes Dataset",
-    "title": "高质量计算机视觉数据集",
-    "description": "专为计算机视觉研究设计的高质量数据集",
+    "title": "High-Quality Computer Vision Dataset",
+    "description": "A high-quality dataset designed for computer vision research",
     "stats": {
       "totalImages": 5000,
       "categories": 30,
@@ -10,28 +10,28 @@
       "resolution": "1024×2048"
     },
     "features": [
-      "高分辨率图像，细节丰富",
-      "精确的像素级标注",
-      "多样化的场景和天气条件",
-      "规范的数据格式和文档"
+      "High-resolution images with rich details",
+      "Accurate pixel-level annotations",
+      "Diverse scenes and weather conditions",
+      "Standardized data formats and documentation"
     ],
     "downloads": [
       {
-        "name": "完整数据集",
+        "name": "Full Dataset",
         "size": "10 GB",
-        "description": "包含所有图像和标注文件",
+        "description": "Includes all images and annotation files",
         "url": "#"
       },
       {
-        "name": "训练集",
+        "name": "Training Set",
         "size": "7 GB",
-        "description": "仅包含训练数据",
+        "description": "Includes only training data",
         "url": "#"
       },
       {
-        "name": "验证集",
+        "name": "Validation Set",
         "size": "2 GB",
-        "description": "仅包含验证数据",
+        "description": "Includes only validation data",
         "url": "#"
       }
     ],
