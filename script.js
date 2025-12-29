@@ -35,20 +35,26 @@ const samples = [
 // 主页轮播图片及对应文字
 const heroCarouselData = [
     {
-        image: './images/segmentation_examples.png',  // 添加 ./ 前缀
-        title: 'The Planetscapes Dataset',
-        subtitle: 'Semantic, instance-wise, dense pixel annotations of 17 classes'
-    },
-    {
-        image: './images/rock-segmentation1.png',
-        title: 'The Planetscapes Dataset',
-        subtitle: 'The instance segmentation results for rock categories are also provided'
-    },
-    {
         image: './images/planet.png',
         title: 'The Planetscapes Dataset',
         subtitle: '5000 images with high-quality annotations and 20000 images with coarse annotations, 4 different missions and landing sites'
     },
+    {
+        image: './images/segmentation_examples.png',  // 添加 ./ 前缀
+        title: 'The Planetscapes Dataset',
+        subtitle: 'Semantic, dense pixel annotations of 18 classes of Martian Scene'
+    },
+    {
+        image: './images/rock-segmentation1.png',
+        title: 'The Planetscapes Dataset',
+        subtitle: 'The instance segmentation results for rock categories of Martain Scene are also provided'
+    },
+     {
+        image: './images/sample1.jpg',
+        title: 'The Planetscapes Dataset',
+        subtitle: 'Semantic, dense pixel annotations of X classes of Lunar Scened'
+    },
+    
     // {
     //     image: 'images/sample4.jpg',
     //     title: '郊区道路场景',
