@@ -47,7 +47,7 @@ const heroCarouselData = [
     {
         image: 'images/sample3.jpg',
         title: 'The Planetscapes Dataset',
-        subtitle: 'Benchmark suite and evaluation server for pixel-level, instance level and panoramic semantic labeling'
+        subtitle: '5000 images with high-quality annotations and 20000 images with coarse annotations, 4 different missions and landing sites'
     },
     // {
     //     image: 'images/sample4.jpg',
