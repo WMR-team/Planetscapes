@@ -40,7 +40,7 @@ const heroCarouselData = [
         subtitle: 'Semantic, instance-wise, dense pixel annotations of 17 classes'
     },
     {
-        image: './images/rock-segmentation.png',
+        image: './images/rock-segmentation1.png',
         title: 'The Planetscapes Dataset',
         subtitle: 'The instance segmentation results for rock categories are also provided'
     },
