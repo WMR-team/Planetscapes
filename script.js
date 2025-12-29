@@ -45,7 +45,7 @@ const heroCarouselData = [
         subtitle: 'The instance segmentation results for rock categories are also provided'
     },
     {
-        image: 'images/sample3.jpg',
+        image: './images/planet.png',
         title: 'The Planetscapes Dataset',
         subtitle: '5000 images with high-quality annotations and 20000 images with coarse annotations, 4 different missions and landing sites'
     },
